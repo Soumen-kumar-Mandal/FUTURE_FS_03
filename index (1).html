@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adda Bari — Home-style Bengali Kitchen</title>
+<meta name="description" content="Adda Bari is a home-style Bengali restaurant serving three generations of family recipes. Come for the food, stay for the adda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain-overlay"></div>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">আ</span>
+      <span class="brand-name">Adda Bari</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our story</a>
+      <a href="#visit">Visit us</a>
+    </nav>
+    <a class="header-cta" href="#visit">Book a table</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-kicker">A home-style Bengali kitchen</p>
+      <h1>Come hungry.<br>Stay for the <em>adda</em>.</h1>
+      <p class="hero-sub">Three generations of recipes from a Bengali home kitchen — slow mustard fish curries, biryani on Sundays, and rosogolla nobody leaves without trying twice.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the menu</a>
+        <a href="#visit" class="btn btn-ghost">Find us</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 420 420" class="thali-svg">
+        <circle cx="210" cy="210" r="200" class="thali-rim"/>
+        <circle cx="210" cy="210" r="170" class="thali-inner"/>
+        <circle cx="210" cy="210" r="60" class="bowl bowl-rice" cx-data="rice"/>
+        <circle cx="120" cy="150" r="34" class="bowl bowl-curry"/>
+        <circle cx="300" cy="150" r="34" class="bowl bowl-dal"/>
+        <circle cx="130" cy="290" r="30" class="bowl bowl-sweet"/>
+        <circle cx="290" cy="290" r="30" class="bowl bowl-veg"/>
+        <path d="M210 150 a60 60 0 0 1 0 120 a60 60 0 0 1 0 -120" class="rice-lines"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="scallop-divider" aria-hidden="true"></div>
+
+  <!-- MENU -->
+  <section class="menu-section" id="menu">
+    <div class="section-head">
+      <h2>From the kitchen</h2>
+      <p>A short menu, cooked properly. Everything below is made fresh each day — when a dish sells out, it's gone till tomorrow.</p>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card">
+        <h3>To start</h3>
+        <ul class="menu-list">
+          <li><span class="item-name">Beguni</span><span class="item-dots"></span><span class="item-price">₹90</span></li>
+          <li><span class="item-name">Mochar chop</span><span class="item-dots"></span><span class="item-price">₹110</span></li>
+          <li><span class="item-name">Fish fry, kasundi</span><span class="item-dots"></span><span class="item-price">₹180</span></li>
+          <li><span class="item-name">Aloo kabli</span><span class="item-dots"></span><span class="item-price">₹80</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-card menu-card-featured">
+        <p class="featured-tag">Most ordered</p>
+        <h3>Mains</h3>
+        <ul class="menu-list">
+          <li><span class="item-name">Shorshe ilish</span><span class="item-dots"></span><span class="item-price">₹420</span></li>
+          <li><span class="item-name">Kosha mangsho</span><span class="item-dots"></span><span class="item-price">₹360</span></li>
+          <li><span class="item-name">Chingri malaikari</span><span class="item-dots"></span><span class="item-price">₹390</span></li>
+          <li><span class="item-name">Bhuna khichuri</span><span class="item-dots"></span><span class="item-price">₹220</span></li>
+          <li><span class="item-name">Kolkata biryani <small>(Sun only)</small></span><span class="item-dots"></span><span class="item-price">₹280</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-card">
+        <h3>To finish</h3>
+        <ul class="menu-list">
+          <li><span class="item-name">Mishti doi</span><span class="item-dots"></span><span class="item-price">₹70</span></li>
+          <li><span class="item-name">Rosogolla, 2 pc</span><span class="item-dots"></span><span class="item-price">₹60</span></li>
+          <li><span class="item-name">Payesh</span><span class="item-dots"></span><span class="item-price">₹90</span></li>
+          <li><span class="item-name">Sondesh, 2 pc</span><span class="item-dots"></span><span class="item-price">₹75</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="scallop-divider flip" aria-hidden="true"></div>
+
+  <!-- STORY -->
+  <section class="story-section" id="story">
+    <div class="story-visual" aria-hidden="true">
+      <svg viewBox="0 0 300 360" class="pot-svg">
+        <ellipse cx="150" cy="330" rx="90" ry="14" class="pot-shadow"/>
+        <path d="M70 150 Q60 260 100 320 Q150 350 200 320 Q240 260 230 150 Z" class="pot-body"/>
+        <ellipse cx="150" cy="150" rx="80" ry="18" class="pot-rim"/>
+        <path d="M110 100 Q150 60 190 100" class="pot-handle"/>
+      </svg>
+    </div>
+    <div class="story-text">
+      <p class="hero-kicker">Our story</p>
+      <h2>Started at a stove that never really turned off.</h2>
+      <p>Adda Bari began the way most good food does — in a home kitchen, feeding whoever showed up. Our grandmother cooked for the neighbourhood before she ever cooked for money. When we opened these doors, we kept her recipes untouched: same mustard paste ground by hand, same slow-cooked mangsho, same patience.</p>
+      <p>No fusion, no shortcuts. Just the food a Bengali household makes when it wants you to stay a little longer.</p>
+      <div class="story-stats">
+        <div><strong>3</strong><span>generations of recipes</span></div>
+        <div><strong>12</strong><span>years open</span></div>
+        <div><strong>0</strong><span>shortcuts taken</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="scallop-divider" aria-hidden="true"></div>
+
+  <!-- VISIT -->
+  <section class="visit-section" id="visit">
+    <div class="section-head light">
+      <h2>Visit us</h2>
+      <p>Walk in, call ahead, or send a message below — we'll hold a table.</p>
+    </div>
+
+    <div class="visit-grid">
+      <div class="visit-info">
+        <div class="info-block">
+          <h4>Address</h4>
+          <p>14 Ratan Sarkar Lane<br>Bidhannagar, Durgapur<br>West Bengal 713212</p>
+        </div>
+        <div class="info-block">
+          <h4>Hours</h4>
+          <p>Tue – Sun · 12:00 pm – 10:30 pm<br>Closed Mondays</p>
+        </div>
+        <div class="info-block">
+          <h4>Reach us</h4>
+          <p><a href="tel:+913431234567">+91 343 123 4567</a></p>
+          <div class="contact-buttons">
+            <a href="https://wa.me/919999999999" class="btn btn-whatsapp" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.1L2 22l5.1-1.3c1.4.8 3.1 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.3.9.9-3.2-.2-.3c-.9-1.4-1.4-3.1-1.4-4.9C3.3 7.2 7.2 3.3 12 3.3s8.7 3.9 8.7 8.7-3.9 8.2-8.7 8.2z"/></svg>
+              WhatsApp us
+            </a>
+            <a href="tel:+913431234567" class="btn btn-ghost-light">Call now</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <label>
+          Your name
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Phone or email
+          <input type="text" name="contact" required>
+        </label>
+        <label>
+          Party size / date
+          <input type="text" name="details" placeholder="e.g. 4 people, Saturday evening">
+        </label>
+        <label>
+          Message <span class="optional">(optional)</span>
+          <textarea name="message" rows="3"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">Request a table</button>
+        <p class="form-note" id="form-note" role="status"></p>
+      </form>
+    </div>
+
+    <div class="map-frame">
+      <iframe
+        title="Map location placeholder"
+        src="https://maps.google.com/maps?q=Durgapur%20West%20Bengal&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <span class="brand-mark">আ</span>
+      <span class="brand-name">Adda Bari</span>
+    </div>
+    <p>&copy; <span id="year"></span> Adda Bari. Home-cooked, every day.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
